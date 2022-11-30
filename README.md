@@ -1,8 +1,14 @@
-# hackathon1
-Projet en 48h sur le theme voyage/tourisme
-Principe: pour une ville donnée rendre googlemap plus approprié, 
- - enlever les marqueurs inutiles, 
- - rajouter des POI fournis par les API de la ville en question, à choisir par coche en haut de page 
- - permettre également de rajouter ses propres POI  
- - gestions de thèmes différents selon l'utilisation
- - possibilité de visualiser une route entre 2 adresses avec affichage distance et temps de trajet
+# Hackathon
+
+🎯 **Goal**: 48h to develop an app on the given theme "Transport / Travel / Tourism" (mobile version only)
+
+## Features
+Based on Google Maps and using the library [react-google-maps/api](https://www.npmjs.com/package/@react-google-maps/api):
+ - remove unused / unwanted Maps markers,
+ - display POI (Points of Interest) provided by diffents API or JSON files (examples with Bordeaux: scouter's stations, parks...) 
+ - mark as favourite a specific place,
+ - handle different themes for the initial map,
+ - display direction / route between two locations.
+
+PS: a google token is needed (cf. .env.sample)
+
